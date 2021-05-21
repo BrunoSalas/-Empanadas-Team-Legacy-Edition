@@ -15,11 +15,11 @@ C:/Users/USER/Desktop/-Empanadas-Team-Legacy-Edition
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56576
+49892
 Successfully changed project path to: C:/Users/USER/Desktop/-Empanadas-Team-Legacy-Edition
 C:/Users/USER/Desktop/-Empanadas-Team-Legacy-Edition
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 18.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,104 +35,739 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000859 seconds.
+Registered in 0.000904 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 18.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.880 seconds
+- Completed reload, in  1.992 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000680 seconds.
+Registered in 0.000660 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.641 seconds
+- Completed reload, in  2.967 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.1 MB.
-System memory in use after: 57.1 MB.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
-Total: 1.480800 ms (FindLiveObjects: 0.102700 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.287900 ms  DeleteObjects: 0.054800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4856052512617ee48189cf1d7999900') in 0.003449 seconds
-  Import took 0.004683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.859457 seconds.
-  path: Assets/aleatorio.cs
-  artifactKey: Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/aleatorio.cs using Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bdff18319c39cca4f03e7e243e9017') in 0.016233 seconds
-  Import took 0.017726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004804 seconds.
-  path: Assets/aleatorio.cs
-  artifactKey: Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/aleatorio.cs using Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bdff18319c39cca4f03e7e243e9017') in 0.001678 seconds
-  Import took 0.003166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.693470 seconds.
-  path: Assets/aleatorio.cs
-  artifactKey: Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/aleatorio.cs using Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b4c58af37606f5086f3b25acf68631') in 0.001986 seconds
-  Import took 0.003941 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 2.517300 ms (FindLiveObjects: 0.240400 ms CreateObjectMapping: 0.153200 ms MarkObjects: 2.007300 ms  DeleteObjects: 0.114400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000569 seconds.
+Registered in 0.000683 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.628 seconds
+- Completed reload, in  2.565 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 1.910700 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.055100 ms MarkObjects: 1.632300 ms  DeleteObjects: 0.054100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/destruir.cs
+  artifactKey: Guid(7474bd047fef8bc42829faa4110af75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/destruir.cs using Guid(7474bd047fef8bc42829faa4110af75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326064e4c4a02e6b91f3d470838180b7') in 0.042303 seconds
+  Import took 0.044283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.052723 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(93dca10bb0cb0004cb342968a421dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(93dca10bb0cb0004cb342968a421dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab07637329fc46fb6206d970ee70813') in 1.159235 seconds
+  Import took 1.160949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.790610 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c037ca2c5e51484f479ce63818a6327') in 0.004718 seconds
+  Import took 0.006458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022804 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c037ca2c5e51484f479ce63818a6327') in 0.002763 seconds
+  Import took 0.004361 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1573.
+Total: 3.628600 ms (FindLiveObjects: 0.235900 ms CreateObjectMapping: 0.076600 ms MarkObjects: 3.144600 ms  DeleteObjects: 0.169600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.554 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1576.
+Total: 2.929600 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.129300 ms MarkObjects: 2.440300 ms  DeleteObjects: 0.062200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.620 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 2.156400 ms (FindLiveObjects: 0.189400 ms CreateObjectMapping: 0.056800 ms MarkObjects: 1.849800 ms  DeleteObjects: 0.058700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1463.755296 seconds.
+  path: Assets/aleatorio.cs
+  artifactKey: Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/aleatorio.cs using Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def1295e5ca9c6ba2932fb9aacd853e1') in 0.006343 seconds
+  Import took 0.008424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/aleatorio.cs
+  artifactKey: Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/aleatorio.cs using Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def1295e5ca9c6ba2932fb9aacd853e1') in 0.001656 seconds
+  Import took 0.003685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.418565 seconds.
+  path: Assets/PiedraVolcanica.prefab
+  artifactKey: Guid(93dca10bb0cb0004cb342968a421dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PiedraVolcanica.prefab using Guid(93dca10bb0cb0004cb342968a421dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f866ca581b51718be2c89e3d0dcc26') in 1.141210 seconds
+  Import took 1.142977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.332858 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(d4d066289a624f9489ddc0258dd6b412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(d4d066289a624f9489ddc0258dd6b412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc3ea131e1c7568efbb864e44e0dba5') in 0.002195 seconds
+  Import took 0.004224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.818943 seconds.
+  path: Assets/Assets
+  artifactKey: Guid(4b7defde9b0edf146afb0ef35534b446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(4b7defde9b0edf146afb0ef35534b446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378121419c9ebee688d0764ca1b5bfc0') in 0.001805 seconds
+  Import took 0.003645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.590396 seconds.
+  path: Assets/Materiales
+  artifactKey: Guid(201072811d49d8a40879dd5668cd0ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales using Guid(201072811d49d8a40879dd5668cd0ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b0dd7dab3411b71df97549d0280233') in 0.002203 seconds
+  Import took 0.004115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.370042 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(c8e0a7bdc1b2b19488ee85f2d81dc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(c8e0a7bdc1b2b19488ee85f2d81dc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bf0eb4dd28f2887f350197fc2fc8e9') in 0.002252 seconds
+  Import took 0.004740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001857 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(c8e0a7bdc1b2b19488ee85f2d81dc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(c8e0a7bdc1b2b19488ee85f2d81dc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bf0eb4dd28f2887f350197fc2fc8e9') in 0.002440 seconds
+  Import took 0.005260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.636189 seconds.
+  path: Assets/Piso(prueba).mat
+  artifactKey: Guid(b25340c530f6cd344bcabd52486a8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piso(prueba).mat using Guid(b25340c530f6cd344bcabd52486a8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f2daff7a73b7313952ce5a850e39ec') in 0.046251 seconds
+  Import took 0.048069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.410462 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004694 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.006380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020957 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001318 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022040 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001406 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021618 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001348 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018485 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002201 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018506 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001302 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019437 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001214 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022952 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001230 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019223 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001186 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019795 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001255 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019513 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001313 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022543 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001168 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020825 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001176 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018567 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001267 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019452 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001247 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022898 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001164 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018726 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001335 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018811 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001836 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018223 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001206 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021860 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001332 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020145 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001280 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020159 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001597 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020990 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002321 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023531 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001291 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021083 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001336 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019818 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001415 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018427 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002112 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021083 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001274 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019156 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001166 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021546 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001163 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019266 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001398 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021429 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001318 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018623 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001529 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019682 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001170 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020080 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001183 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021518 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001427 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018782 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002132 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018188 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001293 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018919 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001298 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021208 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001298 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018184 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001441 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018946 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001243 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.445525 seconds.
+  path: Assets/Scenes/Prueba José.unity
+  artifactKey: Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prueba José.unity using Guid(485f9682c2f9fb648bbe55cbc4415ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001263 seconds
+  ERROR: Build asset version error: assets/scenes/prueba josé.unity in SourceAssetDB has modification time of '2021-05-18T23:46:30.7688147Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.080640 seconds.
+  path: Assets/Scenes/PruebaBruno.unity
+  artifactKey: Guid(8303ce5dad580904eb4194dda0e47500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PruebaBruno.unity using Guid(8303ce5dad580904eb4194dda0e47500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d5bc501c4be95f04b6c8d19cceef15') in 0.003233 seconds
+  Import took 0.005504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.211554 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c2b05c39a59cddd99579e021a11d9d') in 0.003321 seconds
+  Import took 0.006094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.401062 seconds.
+  path: Assets/Prefabs/Piso.prefab
+  artifactKey: Guid(b4dad467987503842ad5d9d9dae3807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Piso.prefab using Guid(b4dad467987503842ad5d9d9dae3807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3014618a0b31a8cc38f760f45aba2b') in 0.010823 seconds
+  Import took 0.012665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002153 seconds.
+  path: Assets/Prefabs/Piso.prefab
+  artifactKey: Guid(b4dad467987503842ad5d9d9dae3807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Piso.prefab using Guid(b4dad467987503842ad5d9d9dae3807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3014618a0b31a8cc38f760f45aba2b') in 0.009367 seconds
+  Import took 0.011295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.894219 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(93a9e5bc63fc6fe4fa18af8851264050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(93a9e5bc63fc6fe4fa18af8851264050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc640c2d3546f43e56d294446cbe618f') in 0.012334 seconds
+  Import took 0.014290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009943 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(93a9e5bc63fc6fe4fa18af8851264050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(93a9e5bc63fc6fe4fa18af8851264050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc640c2d3546f43e56d294446cbe618f') in 0.009724 seconds
+  Import took 0.011503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.049045 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(93a9e5bc63fc6fe4fa18af8851264050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(93a9e5bc63fc6fe4fa18af8851264050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f4880db6eec0a46e947c621a2dc951') in 0.019349 seconds
+  Import took 0.021371 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.6 MB.
+System memory in use after: 60.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1618.
+Total: 3.005200 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.292900 ms MarkObjects: 2.343300 ms  DeleteObjects: 0.059600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.645 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.6 MB.
+System memory in use after: 60.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 6.596200 ms (FindLiveObjects: 0.905300 ms CreateObjectMapping: 0.267200 ms MarkObjects: 5.324500 ms  DeleteObjects: 0.093700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1093.765606 seconds.
+  path: Assets/aleatorio.cs
+  artifactKey: Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/aleatorio.cs using Guid(f9f0a1028130ce84486a551355759461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b221eb46649c4fb8864cc17020d27abe') in 0.020504 seconds
+  Import took 0.025250 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.501 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.1 MB.
-System memory in use after: 57.1 MB.
+System memory in use before: 60.6 MB.
+System memory in use after: 60.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1561.
-Total: 1.547400 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.339900 ms  DeleteObjects: 0.041900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.962957 seconds.
-  path: Assets/Sphere.prefab
-  artifactKey: Guid(93dca10bb0cb0004cb342968a421dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sphere.prefab using Guid(93dca10bb0cb0004cb342968a421dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b6cb2062dcf94eaf00a0c5d3d8ed9c') in 0.112280 seconds
-  Import took 0.114348 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1623.
+Total: 1.990500 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.708700 ms  DeleteObjects: 0.052300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.029062 seconds.
-  path: Assets/Sphere.prefab
+  Time since last request: 74.078111 seconds.
+  path: Assets/Prefabs/PiedraVolcanica.prefab
   artifactKey: Guid(93dca10bb0cb0004cb342968a421dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sphere.prefab using Guid(93dca10bb0cb0004cb342968a421dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b6cb2062dcf94eaf00a0c5d3d8ed9c') in 0.024163 seconds
-  Import took 0.026056 seconds .
+Start importing Assets/Prefabs/PiedraVolcanica.prefab using Guid(93dca10bb0cb0004cb342968a421dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d21124a6800a165493af3a359710dee') in 1.133155 seconds
+  Import took 1.135009 seconds .
 
 ========================================================================
 Received Prepare
@@ -140,334 +775,58 @@ Registering precompiled user dll's ...
 Registered in 0.000593 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.600 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.3 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1572.
-Total: 1.314800 ms (FindLiveObjects: 0.110500 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.128000 ms  DeleteObjects: 0.039500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000634 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.603 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1575.
-Total: 1.522900 ms (FindLiveObjects: 0.160500 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.273600 ms  DeleteObjects: 0.043300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000663 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.632 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1578.
-Total: 1.482300 ms (FindLiveObjects: 0.117400 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.292600 ms  DeleteObjects: 0.039600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000659 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.603 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1581.
-Total: 1.501200 ms (FindLiveObjects: 0.123500 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.306400 ms  DeleteObjects: 0.036300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000853 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.652 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1584.
-Total: 1.328000 ms (FindLiveObjects: 0.126800 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.127600 ms  DeleteObjects: 0.040500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000632 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.605 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1587.
-Total: 1.365400 ms (FindLiveObjects: 0.112300 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.177200 ms  DeleteObjects: 0.037400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000638 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1590.
-Total: 1.584800 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.371100 ms  DeleteObjects: 0.053600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000644 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.4 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1593.
-Total: 1.453700 ms (FindLiveObjects: 0.135600 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.232500 ms  DeleteObjects: 0.045800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1166.340355 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(b25340c530f6cd344bcabd52486a8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(b25340c530f6cd344bcabd52486a8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5f57cc49deeebd9473efaf19cf1684') in 0.073022 seconds
-  Import took 0.074775 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000697 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.6 MB.
-System memory in use after: 60.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
-Total: 1.454700 ms (FindLiveObjects: 0.152600 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.219700 ms  DeleteObjects: 0.040500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000654 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
+- Completed reload, in  2.541 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 60.6 MB.
 System memory in use after: 60.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 2.269800 ms (FindLiveObjects: 0.134800 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.985200 ms  DeleteObjects: 0.116400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1626.
+Total: 2.069200 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.061700 ms MarkObjects: 1.736100 ms  DeleteObjects: 0.059100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 177.114576 seconds.
-  path: Assets/destruit.cs
-  artifactKey: Guid(b5ee2d2af9879564f965697e807df6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/destruit.cs using Guid(b5ee2d2af9879564f965697e807df6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29993d9ce90600e763d0b85ee3af1ce5') in 0.003842 seconds
-  Import took 0.005847 seconds .
+  Time since last request: 14.543149 seconds.
+  path: Assets/Scripts/Player
+  artifactKey: Guid(826e8f9037b28a641a7e21b0cbf63756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player using Guid(826e8f9037b28a641a7e21b0cbf63756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bc1448f5448b2a5de4b9d55ca50582') in 0.007090 seconds
+  Import took 0.009683 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/destruit.cs
-  artifactKey: Guid(b5ee2d2af9879564f965697e807df6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/destruit.cs using Guid(b5ee2d2af9879564f965697e807df6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29993d9ce90600e763d0b85ee3af1ce5') in 0.001969 seconds
-  Import took 0.004045 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000613 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.595 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.6 MB.
-System memory in use after: 60.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1637.
-Total: 1.430200 ms (FindLiveObjects: 0.127700 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.228100 ms  DeleteObjects: 0.040700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000604 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.661 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.6 MB.
-System memory in use after: 60.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1639.
-Total: 1.429900 ms (FindLiveObjects: 0.125200 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.218600 ms  DeleteObjects: 0.040700 ms)
+  Time since last request: 5.788873 seconds.
+  path: Assets/Scripts/Boss
+  artifactKey: Guid(75b1aa54d6c61c24e973fdc261ae2a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Boss using Guid(75b1aa54d6c61c24e973fdc261ae2a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24aa132004389cd7af7678d906d27028') in 0.002388 seconds
+  Import took 0.004274 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.532501 seconds.
-  path: Assets/destruir.cs
-  artifactKey: Guid(7474bd047fef8bc42829faa4110af75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/destruir.cs using Guid(7474bd047fef8bc42829faa4110af75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436652ef509e67dc8d89263ee4b971b2') in 0.003455 seconds
-  Import took 0.005164 seconds .
+  Time since last request: 5.251006 seconds.
+  path: Assets/Scripts/Lava
+  artifactKey: Guid(b87f826ef55f1994e942b1064701c172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lava using Guid(b87f826ef55f1994e942b1064701c172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc20a2c6a775105f6b1ff1d37ee18bc') in 0.002064 seconds
+  Import took 0.004447 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002664 seconds.
-  path: Assets/destruir.cs
-  artifactKey: Guid(7474bd047fef8bc42829faa4110af75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/destruir.cs using Guid(7474bd047fef8bc42829faa4110af75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436652ef509e67dc8d89263ee4b971b2') in 0.001972 seconds
-  Import took 0.003667 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000600 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.603 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.6 MB.
-System memory in use after: 60.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1643.
-Total: 1.664000 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.410200 ms  DeleteObjects: 0.039900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.594 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.6 MB.
-System memory in use after: 60.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1646.
-Total: 1.364500 ms (FindLiveObjects: 0.125800 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.170400 ms  DeleteObjects: 0.035200 ms)
+  Time since last request: 6.061492 seconds.
+  path: Assets/Scripts/Aldeanos
+  artifactKey: Guid(8cf29d42ceee5f74787910da7b7ab3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Aldeanos using Guid(8cf29d42ceee5f74787910da7b7ab3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd673e05b0b3ed7a9e44f98d3944247b1') in 0.003162 seconds
+  Import took 0.005808 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.045537 seconds.
-  path: Assets/destruir.cs
-  artifactKey: Guid(7474bd047fef8bc42829faa4110af75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/destruir.cs using Guid(7474bd047fef8bc42829faa4110af75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6895b9284d0b32ca226e2019be354bc') in 0.003601 seconds
-  Import took 0.005391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.082042 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(b25340c530f6cd344bcabd52486a8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(b25340c530f6cd344bcabd52486a8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf01c534da414600d2e206361b44254') in 0.050253 seconds
-  Import took 0.052107 seconds .
+  Time since last request: 0.001024 seconds.
+  path: Assets/Scripts/Aldeanos
+  artifactKey: Guid(8cf29d42ceee5f74787910da7b7ab3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Aldeanos using Guid(8cf29d42ceee5f74787910da7b7ab3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd673e05b0b3ed7a9e44f98d3944247b1') in 0.002335 seconds
+  Import took 0.004585 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
