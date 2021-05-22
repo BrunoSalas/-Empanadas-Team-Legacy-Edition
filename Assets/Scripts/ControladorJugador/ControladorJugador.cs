@@ -12,10 +12,25 @@ public class ControladorJugador : MonoBehaviour
         
     }
 
-    
+
     void Update()
     {
         Movimiento();
+        Rotacion();
+        Vida();
+    }
+
+    void Vida()
+    { 
+    }
+
+    void Rotacion()
+    {
+        modeloJugador.rotacionX -= Input.GetAxis("Mouse Y") * Time.deltaTime * modeloJugador.velocidadRotacion;//Herencia de la clase ModeloJugador
+        modeloJugador.rotacionY += Input.GetAxis("Mouse X") * Time.deltaTime * modeloJugador.velocidadRotacion;//Herencia de la clase ModeloJugador
+
+        transform.rotation = Quaternion.Euler(0, modeloJugador.rotacionY, 0);//Herencia de la clase ModeloJugador
+        GameObject.FindWithTag("MainCamera").transform.rotation = Quaternion.Euler(modeloJugador.rotacionX, modeloJugador.rotacionY, 0);//Herencia de la clase ModeloJugador
     }
 
     void Movimiento()
