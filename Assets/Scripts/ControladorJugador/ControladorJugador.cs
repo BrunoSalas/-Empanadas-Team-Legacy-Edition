@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,7 @@ public class ControladorJugador : MonoBehaviour
         Movimiento();
         Rotacion();
         Vida();
+
     }
 
     void Vida()
@@ -45,6 +47,20 @@ public class ControladorJugador : MonoBehaviour
              Vector3 direccion = transform.forward * movVertical + transform.right * movHorizontal;
 
            rb_mj.MovePosition(transform.position + direccion* velocidadMov_mj * Time.deltaTime);
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            modeloJugador.enElSuelo = false; //Herencia de la clase ModeloJugador
+            rb_mj.AddForce(0, modeloJugador.empujeSalto, 0, ForceMode.Impulse);
+
+        }
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Piso"))
+        {
+            modeloJugador.enElSuelo = true;
         }
     }
 }

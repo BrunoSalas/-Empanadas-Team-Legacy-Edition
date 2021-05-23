@@ -10,9 +10,12 @@ public class ModeloJugador : MonoBehaviour
     public float rotacionY;
     public float rotacionZ;
     public float velocidadRotacion;
+    public float salto = 0.4f;
+    public float empujeSalto = 10;
+    public bool enElSuelo;
     void Start()
     {
-        
+        enElSuelo = true;
     }
 
     

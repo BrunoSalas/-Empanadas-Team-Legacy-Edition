@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 475612960}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -408,8 +408,8 @@ GameObject:
   - component: {fileID: 1681176796}
   - component: {fileID: 1681176795}
   - component: {fileID: 1681176794}
-  - component: {fileID: 1681176800}
   - component: {fileID: 1681176799}
+  - component: {fileID: 1681176800}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Untagged
@@ -535,4 +535,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1681176794}
-  velocidadMov: 10
+  velocidadMov: 0
+  rotacionX: 0
+  rotacionY: 0
+  rotacionZ: 0
+  velocidadRotacion: 0
