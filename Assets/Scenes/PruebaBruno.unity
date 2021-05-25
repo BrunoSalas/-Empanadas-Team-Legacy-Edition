@@ -682,11 +682,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1634532874}
-  velocidadMov: 5
+  habilidad: 2
+  patos: 15
+  maximaVida: 0
+  velocidadMov: 20
   rotacionX: 0
   rotacionY: 0
   rotacionZ: 0
   velocidadRotacion: 100
+  salto: 0.4
+  empujeSalto: 10
+  enElSuelo: 0
+  poderUsable: 0
+  paraEncimaDeTrampa: 0
 --- !u!114 &1634532876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,21 +719,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45dec4a81de4fae47acdad4b42e66ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parteNucleo: {fileID: 8981052206860186802, guid: 93dca10bb0cb0004cb342968a421dc33, type: 3}
+  piedraVolca: {fileID: 8981052206860186802, guid: 93dca10bb0cb0004cb342968a421dc33, type: 3}
   targetAdel: {fileID: 567828235}
   targetJuga: {fileID: 662126075}
-  time: 0
-  sale: 0
+  tiempoAparicion: 1
+  tiempoEspera: 3
+  creacion: 0
   targetAdelX: 0
   targetAdelY: 0
   targetAdelZ: 0
   targetJugaX: 0
   targetJugaY: 0
   targetJugaZ: 0
-  T: 1
-  x: 0
-  y: 0
-  z: 0
+  guardarT: 3
+  respaldoJugaX: 0
+  respaldoJugaY: 0
+  respaldoJugaZ: 0
 --- !u!65 &1634532878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -744,6 +753,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2400102802103002071, guid: 93a9e5bc63fc6fe4fa18af8851264050, type: 3}
   m_PrefabInstance: {fileID: 1634532872}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1634532883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634532873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9341130cbdeb32e4f855c7ca519bdd2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curacion: 5
+  velocidadAumentada: 20
+  velocidadGuardado: 0
+  tiempo: 0
+  limite: 5
+  usos: 1
 --- !u!1001 &1870682874
 PrefabInstance:
   m_ObjectHideFlags: 0
