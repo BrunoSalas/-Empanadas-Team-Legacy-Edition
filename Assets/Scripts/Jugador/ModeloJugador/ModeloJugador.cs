@@ -17,7 +17,7 @@ public class ModeloJugador : MonoBehaviour
     public float empujeSalto = 10;
     public bool enElSuelo;
     public bool poderUsable;
-    public bool paraEncimaDeTrampa; // variable para detectar trampa
+    public bool encimaDeTrampa; // variable para detectar trampa
     void Start()
     {
         enElSuelo = true;

@@ -44,25 +44,25 @@ public class ControladorJugador : MonoBehaviour
 
     public void UsoDePower()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && modeloJugador.patos >= 1)
+        if (Input.GetKeyDown(KeyCode.Q) && modeloJugador.patos >= 1)//Herencia de la clase ModeloJugador
         {
-            powerDucks.PoderDos();
-            powerDucks.PoderUno();
+            powerDucks.PoderDos();//Herencia de la clase PowerDucks
+            powerDucks.PoderUno();//Herencia de la clase PowerDucks
             
         }
             
     }
 
+    
     public void Trampas()
     {
-        if (modeloJugador.paraEncimaDeTrampa == true)
+        if (modeloJugador.encimaDeTrampa == true)
         {
-            modeloJugador.maximaVida = modeloJugador.maximaVida - trampaPiedras.daño;
-
-            modeloJugador.velocidadMov = modeloJugador.velocidadMov - trampaPiedras.reduccionVelocidad;
+            trampaPiedras.TrampaSegundo();//Herencia de la clase TrampaCuevaPiedras
+            modeloJugador.encimaDeTrampa = false;//Herencia de la clase ModeloJugador
         }
     }
-
+    
     void Movimiento()
     {
         Rigidbody rb_mj = modeloJugador.rb; //Herencia de la clase ModeloJugador
@@ -88,7 +88,16 @@ public class ControladorJugador : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Piso"))
         {
-            modeloJugador.enElSuelo = true;
+            modeloJugador.enElSuelo = true;//Herencia de la clase ModeloJugador
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Trampa"))
+        {
+            modeloJugador.encimaDeTrampa = true;//Herencia de la clase ModeloJugador
+        }
+    }
+  
 }

@@ -29,7 +29,7 @@ public class PowerDucks : MonoBehaviour
 
             if (tiempo >= limite)
             {
-                modeloJugador.velocidadMov = velocidadGuardado;
+                modeloJugador.velocidadMov = velocidadGuardado;//Herencia de la clase modeloJugador
 
                 tiempo = 0;
 
@@ -44,10 +44,10 @@ public class PowerDucks : MonoBehaviour
     {
         if (modeloJugador.habilidad == 1)
         {
-            modeloJugador.maximaVida = modeloJugador.maximaVida + curacion;
+            modeloJugador.maximaVida = modeloJugador.maximaVida + curacion;//Herencia de la clase modeloJugador
 
 
-            modeloJugador.patos = modeloJugador.patos - 1;
+            modeloJugador.patos = modeloJugador.patos - 1;//Herencia de la clase modeloJugador
 
         }
     }
@@ -56,16 +56,16 @@ public class PowerDucks : MonoBehaviour
     {
         if (modeloJugador.habilidad == 2 && usos == 1)
         {
-            velocidadGuardado = modeloJugador.velocidadMov;
+            velocidadGuardado = modeloJugador.velocidadMov;//Herencia de la clase modeloJugador
 
-            modeloJugador.velocidadMov = modeloJugador.velocidadMov + velocidadAumentada;
+            modeloJugador.velocidadMov = modeloJugador.velocidadMov + velocidadAumentada;//Herencia de la clase modeloJugador
 
             tiempoVelocidadDuracion = true;
 
             usos = 2;
 
 
-            modeloJugador.patos = modeloJugador.patos - 1;
+            modeloJugador.patos = modeloJugador.patos - 1;//Herencia de la clase modeloJugador
 
         }
     }

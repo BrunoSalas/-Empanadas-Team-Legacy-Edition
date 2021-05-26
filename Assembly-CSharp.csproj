@@ -57,12 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Boss\Movimiento\Seguimiento.cs" />
+    <Compile Include="Assets\Scripts\Boss\Ataques\AtaqueAmplio\DestruccionPV.cs" />
     <Compile Include="Assets\Scripts\Boss\Ataques\AtaqueAmplio\PiedraVolcanica.cs" />
+    <Compile Include="Assets\Scripts\Jugador\PowerUps\PowerDucks.cs" />
     <Compile Include="Assets\Scripts\Jugador\ControladorJugador\ControladorJugador.cs" />
     <Compile Include="Assets\Scripts\Jugador\ModeloJugador\ModeloJugador.cs" />
-    <Compile Include="Assets\Scripts\Boss\Ataques\AtaqueAmplio\DestruccionPV.cs" />
-    <Compile Include="Assets\Scripts\Jugador\PowerUps\PowerDucks.cs" />
     <Compile Include="Assets\Scripts\Trampas\TrampaCuevaPiedras.cs" />
+    <Compile Include="Assets\Scripts\Trampas\DestruccionAsset.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
