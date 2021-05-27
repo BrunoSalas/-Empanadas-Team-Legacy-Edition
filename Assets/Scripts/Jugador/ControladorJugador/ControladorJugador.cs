@@ -24,7 +24,7 @@ public class ControladorJugador : MonoBehaviour
         Rotacion();
         Vida();
         UsoDePower();
-        Trampas();
+       // Trampas();
 
     }
 
@@ -54,7 +54,7 @@ public class ControladorJugador : MonoBehaviour
     }
 
     
-    public void Trampas()
+   /* public void Trampas()
     {
         if (modeloJugador.encimaDeTrampa == true)
         {
@@ -62,7 +62,7 @@ public class ControladorJugador : MonoBehaviour
             modeloJugador.encimaDeTrampa = false;//Herencia de la clase ModeloJugador
         }
     }
-    
+    */
     void Movimiento()
     {
         Rigidbody rb_mj = modeloJugador.rb; //Herencia de la clase ModeloJugador

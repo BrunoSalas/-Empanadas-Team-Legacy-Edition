@@ -373,6 +373,7 @@ GameObject:
   - component: {fileID: 901128962}
   - component: {fileID: 901128966}
   - component: {fileID: 901128967}
+  - component: {fileID: 901128968}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -491,6 +492,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jugador: {fileID: 1634532880}
+--- !u!114 &901128968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901128961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa0336ad800c4b542bafae3940fed3a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parteNucleo: {fileID: 8981052206860186802, guid: 93dca10bb0cb0004cb342968a421dc33, type: 3}
+  targetAdel: {fileID: 567828235}
+  targetJuga: {fileID: 662126075}
+  time: 0
+  sale: 0
+  parado: 0
+  targetAdelX: 0
+  targetAdelY: 0
+  targetAdelZ: 0
+  targetJugaX: 0
+  targetJugaY: 0
+  targetJugaZ: 0
+  T: 1
+  x: 0
+  y: 0
+  z: 0
 --- !u!1 &1102887279
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,7 +717,7 @@ MonoBehaviour:
   rb: {fileID: 1634532874}
   habilidad: 2
   patos: 15
-  maximaVida: 20
+  maximaVida: 80
   velocidadMov: 20
   rotacionX: 0
   rotacionY: 0
@@ -711,34 +740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8bb526a58fe34780a305d8ef7ee85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1634532877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1634532873}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45dec4a81de4fae47acdad4b42e66ed9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  piedraVolca: {fileID: 8981052206860186802, guid: 93dca10bb0cb0004cb342968a421dc33, type: 3}
-  targetAdel: {fileID: 567828235}
-  targetJuga: {fileID: 662126075}
-  tiempoAparicion: 1
-  tiempoEspera: 3
-  creacion: 0
-  targetAdelX: 0
-  targetAdelY: 0
-  targetAdelZ: 0
-  targetJugaX: 0
-  targetJugaY: 0
-  targetJugaZ: 0
-  guardarT: 3
-  respaldoJugaX: 0
-  respaldoJugaY: 0
-  respaldoJugaZ: 0
 --- !u!65 &1634532878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -782,7 +783,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634532873}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eca8ce8c63d90e479568becb3792cf5, type: 3}
   m_Name: 
@@ -803,7 +804,7 @@ GameObject:
   - component: {fileID: 1767090580}
   - component: {fileID: 1767090579}
   - component: {fileID: 1767090578}
-  - component: {fileID: 1767090577}
+  - component: {fileID: 1767090582}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Trampa
@@ -811,18 +812,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1767090577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767090576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f5742296da11914f9e98820d3012a8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1767090578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -899,6 +888,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1767090582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767090576}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eca8ce8c63d90e479568becb3792cf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "da\xF1o": 3
+  reduccionVelocidad: 4
+  velocidadGuardado: 0
+  unaPiedra: 0
 --- !u!1001 &1870682874
 PrefabInstance:
   m_ObjectHideFlags: 0

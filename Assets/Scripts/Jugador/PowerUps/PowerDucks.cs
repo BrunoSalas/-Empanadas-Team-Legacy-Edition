@@ -44,11 +44,13 @@ public class PowerDucks : MonoBehaviour
     {
         if (modeloJugador.habilidad == 1)
         {
-            modeloJugador.maximaVida = modeloJugador.maximaVida + curacion;//Herencia de la clase modeloJugador
+            if (modeloJugador.maximaVida < 100)
+            {
+                modeloJugador.maximaVida = modeloJugador.maximaVida + curacion;//Herencia de la clase modeloJugador
 
 
-            modeloJugador.patos = modeloJugador.patos - 1;//Herencia de la clase modeloJugador
-
+                modeloJugador.patos = modeloJugador.patos - 1;//Herencia de la clase modeloJugador
+            }
         }
     }
 
