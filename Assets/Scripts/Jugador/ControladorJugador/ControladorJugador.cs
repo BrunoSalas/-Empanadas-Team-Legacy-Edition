@@ -11,10 +11,12 @@ public class ControladorJugador : MonoBehaviour
 
     void Start()
     {
+        modeloJugador.vida = modeloJugador.maximaVida;
         modeloJugador = GetComponent<ModeloJugador>();
         powerDucks = GetComponent<PowerDucks>();
 
         trampaPiedras = GetComponent<TrampaCuevaPiedras>();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
@@ -22,14 +24,30 @@ public class ControladorJugador : MonoBehaviour
     {
         Movimiento();
         Rotacion();
-        Vida();
         UsoDePower();
-       // Trampas();
+        Trampas();
 
     }
-
-    void Vida()
+    //Función para modificar la vida
+    void ModificadorVida(bool aumento,float valor)
     {
+        if(aumento)
+        {
+            modeloJugador.vida += valor;
+            if(modeloJugador.vida>modeloJugador.maximaVida)
+            {
+                modeloJugador.vida = modeloJugador.maximaVida;
+            }
+        }
+        else
+        {
+            modeloJugador.vida -= valor;
+            if(modeloJugador.vida<0)
+            {
+                modeloJugador.gameplayManaguer.GetComponent<GameplayControlador>().Perdiste();
+            }
+        }
+
 
     }
 
@@ -37,8 +55,9 @@ public class ControladorJugador : MonoBehaviour
     {
         modeloJugador.rotacionX -= Input.GetAxis("Mouse Y") * Time.deltaTime * modeloJugador.velocidadRotacion;//Herencia de la clase ModeloJugador
         modeloJugador.rotacionY += Input.GetAxis("Mouse X") * Time.deltaTime * modeloJugador.velocidadRotacion;//Herencia de la clase ModeloJugador
-
+        //modeloJugador.rotacionY = Mathf.Clamp(, -90f, 90f);
         transform.rotation = Quaternion.Euler(0, modeloJugador.rotacionY, 0);//Herencia de la clase ModeloJugador
+
         GameObject.FindWithTag("MainCamera").transform.rotation = Quaternion.Euler(modeloJugador.rotacionX, modeloJugador.rotacionY, 0);//Herencia de la clase ModeloJugador
     }
 
@@ -54,7 +73,7 @@ public class ControladorJugador : MonoBehaviour
     }
 
     
-   /* public void Trampas()
+    public void Trampas()
     {
         if (modeloJugador.encimaDeTrampa == true)
         {
@@ -62,7 +81,7 @@ public class ControladorJugador : MonoBehaviour
             modeloJugador.encimaDeTrampa = false;//Herencia de la clase ModeloJugador
         }
     }
-    */
+    
     void Movimiento()
     {
         Rigidbody rb_mj = modeloJugador.rb; //Herencia de la clase ModeloJugador
@@ -83,6 +102,17 @@ public class ControladorJugador : MonoBehaviour
 
         }
     }
+    void AldeanoPatoProbabilidad()
+    {
+        if (Random.Range(1f, 100f) < modeloJugador.AldeanoRNG)
+        {
+            Debug.Log("Aldeano me dio pato");
+        }
+        else
+        {
+            Debug.Log("Aldeano NO me dio pato");
+        }
+    }
 
     private void OnCollisionEnter(Collision other)
     {
@@ -97,6 +127,11 @@ public class ControladorJugador : MonoBehaviour
         if (other.gameObject.CompareTag("Trampa"))
         {
             modeloJugador.encimaDeTrampa = true;//Herencia de la clase ModeloJugador
+        }
+        if(other.gameObject.CompareTag("Aldeano"))
+        {
+            Destroy(other);
+            AldeanoPatoProbabilidad();
         }
     }
   
