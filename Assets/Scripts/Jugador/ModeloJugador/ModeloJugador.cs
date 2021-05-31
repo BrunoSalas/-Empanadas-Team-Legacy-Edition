@@ -12,10 +12,6 @@ public class ModeloJugador : MonoBehaviour
     public float vida;
     public float maximaVida;
     public float velocidadMov;
-    public float rotacionX;
-    public float rotacionY;
-    public float rotacionZ;
-    public float velocidadRotacion;
     public float salto = 0.4f;
     public float empujeSalto = 10;
     public bool enElSuelo;

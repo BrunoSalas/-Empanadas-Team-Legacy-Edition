@@ -17,7 +17,6 @@ public class ControladorJugador : MonoBehaviour
         powerDucks = GetComponent<PowerDucks>();
 
         trampaPiedras = GetComponent<TrampaCuevaPiedras>();
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
@@ -25,7 +24,6 @@ public class ControladorJugador : MonoBehaviour
     {
         Movimiento();
         Correr();
-        Rotacion();
         UsoDePower();
         Trampas();
 
@@ -51,16 +49,6 @@ public class ControladorJugador : MonoBehaviour
         }
 
 
-    }
-
-    void Rotacion()
-    {
-        modeloJugador.rotacionX -= Input.GetAxis("Mouse Y") * Time.deltaTime * modeloJugador.velocidadRotacion;//Herencia de la clase ModeloJugador
-        modeloJugador.rotacionY += Input.GetAxis("Mouse X") * Time.deltaTime * modeloJugador.velocidadRotacion;//Herencia de la clase ModeloJugador
-        //modeloJugador.rotacionY = Mathf.Clamp(, -90f, 90f);
-        transform.rotation = Quaternion.Euler(0, modeloJugador.rotacionY, 0);//Herencia de la clase ModeloJugador
-
-        GameObject.FindWithTag("MainCamera").transform.rotation = Quaternion.Euler(modeloJugador.rotacionX, modeloJugador.rotacionY, 0);//Herencia de la clase ModeloJugador
     }
 
     public void UsoDePower()
