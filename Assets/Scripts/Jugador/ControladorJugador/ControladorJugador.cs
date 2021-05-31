@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ControladorJugador : MonoBehaviour
 {
     private ModeloJugador modeloJugador;
@@ -23,6 +24,7 @@ public class ControladorJugador : MonoBehaviour
     void Update()
     {
         Movimiento();
+        Correr();
         Rotacion();
         UsoDePower();
         Trampas();
@@ -102,6 +104,13 @@ public class ControladorJugador : MonoBehaviour
 
         }
     }
+
+    void Correr()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift)){
+            modeloJugador.velocidadMov += modeloJugador.aceleracion;
+        }
+    }
     void AldeanoPatoProbabilidad()
     {
         if (Random.Range(1f, 100f) < modeloJugador.AldeanoRNG)
@@ -114,12 +123,27 @@ public class ControladorJugador : MonoBehaviour
         }
     }
 
+  
+
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Piso"))
         {
             modeloJugador.enElSuelo = true;//Herencia de la clase ModeloJugador
         }
+        if (other.gameObject.CompareTag("Trampa1"))
+        {
+            Debug.Log("Ya veremos");
+        }
+        if (other.gameObject.CompareTag("Trampa2"))
+        {
+            Debug.Log("Ya veremos");
+        }
+        if (other.gameObject.CompareTag("CheckPoint"))
+        {
+            modeloJugador.spawnPoint = modeloJugador.objCheckpoint.transform.position;
+        }
+        
     }
 
     private void OnTriggerEnter(Collider other)

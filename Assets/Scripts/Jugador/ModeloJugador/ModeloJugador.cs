@@ -21,6 +21,9 @@ public class ModeloJugador : MonoBehaviour
     public bool enElSuelo;
     public bool poderUsable;
     public bool encimaDeTrampa; // variable para detectar trampa
+    public Vector3 spawnPoint;
+    public GameObject objCheckpoint;
+    public float aceleracion;
     void Start()
     {
         enElSuelo = true;
