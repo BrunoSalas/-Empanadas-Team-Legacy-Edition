@@ -25,5 +25,6 @@ public class Camara : MonoBehaviour
         transform.localEulerAngles = new Vector3(rotacionEnX, 0f, 0f);
 
         jugador.Rotate(Vector3.up * mouseX);
+
     }
 }

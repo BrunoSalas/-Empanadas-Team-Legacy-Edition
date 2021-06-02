@@ -372,7 +372,6 @@ GameObject:
   - component: {fileID: 901128963}
   - component: {fileID: 901128962}
   - component: {fileID: 901128966}
-  - component: {fileID: 901128967}
   - component: {fileID: 901128968}
   m_Layer: 0
   m_Name: Boss
@@ -479,19 +478,6 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &901128967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901128961}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8ac7f1f90d37e94397e0ed69a687afd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 1634532880}
 --- !u!114 &901128968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,22 +490,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa0336ad800c4b542bafae3940fed3a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parteNucleo: {fileID: 8981052206860186802, guid: 93dca10bb0cb0004cb342968a421dc33, type: 3}
-  targetAdel: {fileID: 567828235}
-  targetJuga: {fileID: 662126075}
-  time: 0
-  sale: 0
-  parado: 0
-  targetAdelX: 0
-  targetAdelY: 0
-  targetAdelZ: 0
-  targetJugaX: 0
-  targetJugaY: 0
-  targetJugaZ: 0
-  T: 1
-  x: 0
-  y: 0
-  z: 0
+  targetJugador: {fileID: 662126075}
+  rocaVolcanica: {fileID: 8981052206860186802, guid: 93dca10bb0cb0004cb342968a421dc33, type: 3}
+  targerAdelante: {fileID: 567828235}
+  jugador: {fileID: 1634532880}
 --- !u!1 &1102887279
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,20 +688,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67e9c0ffc3d86844eaa00ebdff3ce35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameplayManaguer: {fileID: 0}
   rb: {fileID: 1634532874}
+  AldeanoRNG: 0
   habilidad: 2
   patos: 15
+  vida: 0
   maximaVida: 80
   velocidadMov: 20
-  rotacionX: 0
-  rotacionY: 0
-  rotacionZ: 0
-  velocidadRotacion: 100
   salto: 0.4
   empujeSalto: 10
   enElSuelo: 0
   poderUsable: 0
   encimaDeTrampa: 0
+  spawnPoint: {x: 0, y: 0, z: 0}
+  objCheckpoint: {fileID: 0}
+  aceleracion: 0
 --- !u!114 &1634532876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -740,6 +716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f8bb526a58fe34780a305d8ef7ee85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  modeloJugador: {fileID: 1634532875}
 --- !u!65 &1634532878
 BoxCollider:
   m_ObjectHideFlags: 0

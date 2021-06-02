@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class ControladorJugador : MonoBehaviour
 {
-    private ModeloJugador modeloJugador;
+    public ModeloJugador modeloJugador;
     private PowerDucks powerDucks;
     private TrampaCuevaPiedras trampaPiedras;
 

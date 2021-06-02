@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Piso
   - Trampa
+  - Trampa1
+  - Trampa2
+  - CheckPoint
+  - Aldeano
   layers:
   - Default
   - TransparentFX

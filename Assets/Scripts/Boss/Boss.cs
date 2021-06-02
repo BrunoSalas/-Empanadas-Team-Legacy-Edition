@@ -4,6 +4,162 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
+    public GameObject targetJugador;
+    public GameObject rocaVolcanica;
+    public GameObject targerAdelante;
+    private int creado;
+    private int parado;
+    private float targetAdelanteX;
+    private float targetAdelanteY;
+    private float targetAdelanteZ;
+    public float targetJugadorX;
+    public float targetJugadorY;
+    public float targetJugadorZ;
+    private float tiempo = 1;
+    private float tiempoGuardado;
+    public Transform jugador;
+    UnityEngine.AI.NavMeshAgent enemigo;
+    private bool dentro;
+    public float GuardadoX;
+    public float GuardadoY;
+    public float GuardadoZ;
+
+    private void Start()
+    {
+        enemigo = GetComponent<UnityEngine.AI.NavMeshAgent>();
+   
+    }
+
+    private void Update()
+    {
+        AtaqueLejano();
+        AtaqueCercano();
+        AtaqueCuerpoCuerpo();
+        Seguimiento();
+
+    }
+
+    public void AtaqueLejano()
+    {
+        targetAdelanteX = targerAdelante.transform.position.x;
+        targetAdelanteY = targerAdelante.transform.position.y;
+        targetAdelanteZ = targerAdelante.transform.position.z;
+
+        targetJugadorX = targetJugador.transform.position.x;
+        targetJugadorY = targetJugador.transform.position.y;
+        targetJugadorZ = targetJugador.transform.position.z;
+
+        tiempo = tiempo + 1 * Time.deltaTime;
+
+        tiempoGuardado = tiempoGuardado + 1 * Time.deltaTime;
+
+        if (tiempoGuardado >= 3f)
+        {
+            GuardadoX = targetJugadorX;
+            GuardadoY = targetJugadorY;
+            GuardadoZ = targetJugadorZ;
+
+            tiempoGuardado = 0;
+        }
+
+        if (GuardadoX == targetJugadorX && GuardadoY == targetJugadorY && GuardadoZ == targetJugadorZ)
+        {
+            parado = 1;
+        }
+
+        else
+        {
+            parado = 2;
+        }
+
+        switch (parado)
+        {
+            case 1:
+                if (tiempo <= 1)
+                {
+                    Vector3 RocaVolcanica = new Vector3(targetJugadorX, targetJugadorY + 10, targetJugadorZ);
+
+                    if (creado == 1)
+                    {
+                        Instantiate(rocaVolcanica, RocaVolcanica, transform.rotation);
+
+                        creado = 2;
+                    }
+                }
+
+                else if(tiempo >= 3)
+                {
+                    tiempo = 0;
+
+                    creado = 1;
+                }
+                break;
+
+            case 2:
+                if (tiempo <= 1)
+                {
+                    Vector3 RocaVolcanica = new Vector3(targetAdelanteX, targetAdelanteY + 10, targetAdelanteZ);
+
+                    if (creado == 1)
+                    {
+                        Instantiate(rocaVolcanica, RocaVolcanica, transform.rotation);
+
+                        creado = 2;
+                    }
+                }
+
+                else if (tiempo >= 3)
+                {
+                    tiempo = 0;
+
+                    creado = 1;
+                }
+
+                break;
+        }
+    }
+
+    public void AtaqueCercano()
+    {
+        
+    }
+
+    public void AtaqueCuerpoCuerpo()
+    {
+        
+    }
+
+    public void Seguimiento()
+    {
+
+       if (!dentro)
+       {
+         enemigo.destination = jugador.position;
+       }
+       if (dentro)
+       {
+         enemigo.destination = this.transform.position;
+       }
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            dentro = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            dentro = false;
+        }
+    }
+
+    /*
     public GameObject parteNucleo;
     public GameObject targetAdel;
     public GameObject targetJuga;
@@ -129,4 +285,5 @@ public class Boss : MonoBehaviour
                 break;
         }
     }
+    */
 }
